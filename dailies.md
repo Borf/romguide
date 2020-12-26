@@ -12,15 +12,15 @@ In most major cities you can find a mission board. The quests on this mission bo
 
 There are multiple rift events, that you can clear for good and unique items. Every rift has some specific item drops, and some items drop from all rifts. Rifts can be done manually, or automatically, after the rift is cleared once, and if you are 5 levels over the minimum level requirement. To do a rift manually, it is usually wise to party up with some people as most rifts have a monster with reflect, that can easily kill you if you try to solo the rift. To do a rift automatically, open the rift window, either through your assistant or through the NPC in Prontera. Currently, ROM offers the following rifts:
 
-|--|--|--|--|--|
 | City | Name | Min Level | Auto Level | Rewards |
 |--|--|--|--|--|
-| Glastheim | Night of Destruction | 80 | 85 | ? |
-| Aldebaran | Spacetime Nightmare | 90 | 95 | ? |
-| ... | ... | 100 | 100 | ? |
-| ... | ... | 100 | 100 | ? |
-| ... | ... | 100 | 100 | ? |
-| ... | ... | 100 | 100 | ? |
+| Glastheim | Night of Destruction | 80 | 85 | Flame, Dog Teeth, Broken Blade |
+| Aldebaran | Spacetime Nightmare | 90 | 95 | Super Boost, Memory Gem, Glitter Shell |
+| Gingerbread City | Horror City | 100 | 100 | Christmas Eggyra, Christmas Socks, Christmas Garland |
+| Niflheim | Hamelin | 105 | 105 | Coloful Socks, Wraith Dust, Hypnotic Log |
+| Yuno | Firelands | 100 | 100 | Sky Stone, Lava Gem, Harpy's Feather |
+| Lighthalzen | Secret Laboratory | 110 | 110 | Dark Magic Stone, Corrupted Pendant, Moldy Gold Coins |
+| Rachel | Hell Journey |130 | 130 | Bone Teeth, Remains, Bloody Prayer |
 
 ## Guild Donations
 
@@ -52,4 +52,3 @@ In prontera castle you can hire an assistant once you reach level **TODO**. By d
   Used for enchanting your equipment. This is one of the few (free) ways of getting Mora Coins, so make sure you do these quests daily
 - Kafra Log Experience
   The last episode added the Kafra Log Adventure. By doing your daily assistant quests, you get Kafra Log Experience, to get more levels in your kafra log.
-
