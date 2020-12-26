@@ -5,6 +5,7 @@
       <li class="list-group-item"><a href="{{site.baseurl}}/weekly/purg">Purgatory</a></li>
       <li class="list-group-item"><a href="{{site.baseurl}}/weekly/oracle">Oracle</a></li>
       <li class="list-group-item"><a href="{{site.baseurl}}/weekly/vr">Valkyrie Ruins</a></li>
+      <li class="list-group-item"><a href="{{site.baseurl}}/weekly/boc">Battle of Cake</a></li>
       <li class="list-group-item"><a href="{{site.baseurl}}/weekly/et">Endless Tower</a></li>
       <li class="list-group-item"><a href="{{site.baseurl}}/weekly/tt">Thanatos Tower</a>
         <ul class="list-group border-left">
