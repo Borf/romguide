@@ -1,6 +1,7 @@
 # Purgatory
 
 Time to clear: about 5 minutes with a full party
+Minimum Level: **TODO**
 
 Every week you can do the purgatory "dungeon". This dungeon consists of 1 floor, with 4 NPCs that can summon an RMVP, a dark version of the normal MVP. There are 4 NPCs to summon these RMVPs, and the RMVP summoned at the top of the map is stronger than the other RMVPS. These RMVPs can drop different, valuable blueprints from the normal MVPs, so make use of this dungeon to kill them.
 
