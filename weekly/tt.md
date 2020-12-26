@@ -7,7 +7,11 @@ Thanatos Tower is a boss run for a party of 12 people. This dungeon requires tea
 - 1x Warlock for 'phreeoni duty' on 4F
 - 7x DPS
 
-for the Legend difficulty, one of the DPS will have to be a Mechanic, with the Neutral Barrier skill, and someone will have to be equipped for 'chain duty'. View the sections per floor for more information on the floors and the role everybody has. Team coordination is required, so it is recommended to use something like discord voice to coordinate, and have someone 'shotcall'. 
+for the Legend difficulty, one of the DPS will have to be a Mechanic, with the Neutral Barrier skill, and someone will have to be equipped for 'chain duty'. View the sections per floor for more information on the floors and the role everybody has. Team coordination is required, so it is recommended to use something like discord voice to coordinate, and have someone 'shotcall'. On every floor, you only have a limited number of resurrections, so make sure you pay attention on ressurrections. When low on resurrections, make sure you prioritize the special roles, and the highest DPS
+
+- Novice: 60 resurrections
+- Brave: 20 resurrections
+- Legend: 10 resurrections
 
 ## Requirements
 
