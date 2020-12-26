@@ -1,0 +1,352 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+#wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+#sidebar li {
+    padding-right: 0px;
+    border-right: 0px;
+}
+
+#sidebar > ul > li {
+    min-width: 250px;
+}
+
+#content {
+    padding: 20px;
+}
+
+#content h1, h2, h3, h4 {
+    margin: 20px;
+}
+
+#content p {
+    font-size: 1.25em;
+}
+
+#content li {
+    font-size: 1.25em;
+}
+
+#content ul {
+    margin-left: 25px;
+}
+
+
+.tinyimg {
+    height: 2em;
+    width: auto;
+}
+
+
+
+.page-gear img {
+    width: 50px;
+    height: auto;
+}
+
+.page-gear img.card {
+    border-radius: 15px;
+}
+
+
+.equip {
+    width: 890px;
+
+    clear: right;
+    display: block;
+    height: 384px;
+}
+
+.equip li {
+    width: 220px;
+    float: left;
+    display: block;
+    height: 74px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5px;
+}
+
+.equip li:nth-child(2n+1) {
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.equip li:nth-child(4n+4) {
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.equip li:nth-child(4n+2) {
+    margin-right: 5px;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.equip li {
+    border-top: 1px solid #ccc;
+}
+.equip li:nth-child(21), .equip li:nth-child(22), .equip li:nth-child(23), .equip li:nth-child(24) {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.equip li:nth-child(1) {
+    background-image: url('../images/offhand.png');
+}
+
+.equip li:nth-child(3) {
+    background-image: url('../images/weapon.png');
+}
+
+.equip li:nth-child(5) {
+    background-image: url('../images/armor.png');
+}
+
+.equip li:nth-child(7) {
+    background-image: url('../images/head.png');
+}
+
+.equip li:nth-child(9) {
+    background-image: url('../images/garment.png');
+}
+
+.equip li:nth-child(11) {
+    background-image: url('../images/face.png');
+}
+
+.equip li:nth-child(13) {
+    background-image: url('../images/shoes.png');
+}
+
+.equip li:nth-child(15) {
+    background-image: url('../images/mouth.png');
+}
+
+.equip li:nth-child(17) {
+    background-image: url('../images/accessoiry.png');
+}
+
+.equip li:nth-child(19) {
+    background-image: url('../images/back.png');
+}
+
+.equip li:nth-child(21) {
+    background-image: url('../images/accessoiry.png');
+}
+
+.equip li:nth-child(23) {
+    background-image: url('../images/tail.png');
+}
+
+.equip .card  {
+    height: 64px;
+    width: 52px;
+    border-radius: 16px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.equip .item  {
+    height: auto;
+    width: auto;
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 16px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.map-image-wrapper {
+    position: relative;
+}
+
+.mapicon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: -32px;
+    background-color: #aa3344;
+    color: white;
+    display: block;
+    border-radius: 16px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+}
+
+.mapicon.warp {
+    background-color: #47748b;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    line-height: 20px;
+}
+
+.badge-icon
+{
+    background-color: #aa3344;
+    color: white;
+    width: 50px;
+}
+.badge-warp
+{
+    background-color: #47748b;
+    color: white;
+    width: 50px;
+}
+
+.page-maps ul {
+    list-style-type: none;
+}
+
+table tr td
+{
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 170px;
+}
+
+.page-gear table tr td:nth-child(1)
+{
+   width: 64px;
+}
+.page-gear table tr td:nth-child(2)
+{
+   width: 75px;
+}
+.page-gear table tr td:nth-child(3)
+{
+   width: 220px;
+}
+.page-gear table tr td:nth-child(4)
+{
+   width: 320px;
+}
+
+.page-builds ul {
+    columns: 2;
+}
+
+.page-builds li {
+    display: block;
+    height: 100px;
+}
+
+.skills {
+    columns: 2;
+}
+
+.skills li {
+    display: block;
+    height: 64px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding-left: 10px;
+    line-height: 64px;
+}
+
+
+
+%card-white {           background-color: #DBDBDB; border-color: #B6C2CB; }
+%card-green {           background-color: #E0EDC3; border-color: #BFE66C; }
+%card-blue {           background-color: #E5ECF3; border-color: #98E4FA; }
+
+.card.marc {            @extend %card-green;    content:url("{{site.baseurl}}/assets/images/cards/marc.png"); }
+.card.hydra {           @extend %card-blue;     content:url("{{site.baseurl}}/assets/images/cards/hydra.png") }
+.card.thara-frog {      @extend %card-blue;     content:url("{{site.baseurl}}/assets/images/cards/thara-frog.png") }
+.card.marduk {          @extend %card-green;    content:url("{{site.baseurl}}/assets/images/cards/marduk.png") }
+.card.ferus {           @extend %card-green;    content:url("{{site.baseurl}}/assets/images/cards/ferus.png") }
+.card.raydric {         @extend %card-green;    content:url("{{site.baseurl}}/assets/images/cards/raydric.png") }
+.card.horong {          @extend %card-green;    content:url("{{site.baseurl}}/assets/images/cards/horong.png") }
+.card.weak-puppet {     @extend %card-green;    content:url("{{site.baseurl}}/assets/images/cards/weak-puppet.png") }
+
+
+
+.item.rosa-bracelet {           content:url("{{site.baseurl}}/assets/images/equip/rosa-bracelet.png") }
+.item.staunch-armor {           content:url("{{site.baseurl}}/assets/images/equip/staunch-armor.png") }
+.item.ancient-cape {            content:url("{{site.baseurl}}/assets/images/equip/ancient-cape.png") }
+.item.staunch-shoes {           content:url("{{site.baseurl}}/assets/images/equip/staunch-shoes.png") }
+.item.strength-ring {           content:url("{{site.baseurl}}/assets/images/equip/strength-ring.png") }
+.item.matyrs-leash {            content:url("{{site.baseurl}}/assets/images/equip/matyrs-leash.png") }
+.item.nagan {                   content:url("{{site.baseurl}}/assets/images/equip/nagan.png") }
+.item.feather-berret {          content:url("{{site.baseurl}}/assets/images/equip/feather-berret.png") }
+.item.hockey-mask {             content:url("{{site.baseurl}}/assets/images/equip/hockey-mask.png") }
+.item.spiked-scarf {            content:url("{{site.baseurl}}/assets/images/equip/spiked-scarf.png") }
+.item.mdef-fairy {              content:url("{{site.baseurl}}/assets/images/equip/mdef-fairy.png") }
+
+
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+
+    .wrapper {
+        width: auto;
+    }
+    
+    #top {
+        display: flex;
+        width: 100%;
+    }
+
+    .map-desc col
+    {
+        position: static !important;
+    }
+    
+}
+
