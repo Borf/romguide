@@ -42,6 +42,7 @@
   <li class="list-group-item">Data Sheets
     <ul class="list-group border-left">
       <li class="list-group-item"><a href="/data/pets">Pets</a></li>
+      <li class="list-group-item"><a href="http://gg.gg/ROM_Pets">Pets google sheet</a></li>
       <li class="list-group-item"><a href="/data/cardcraft">Card Crafting</a></li>
       <li class="list-group-item"><a href="/char/enhancerefine">Refine Enhancing</a></li>
     </ul>
