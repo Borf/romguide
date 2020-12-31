@@ -89,6 +89,21 @@
     width: auto;
 }
 
+blockquote {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(36, 41, 46);
+    border-radius: 5px;
+}
+
+blockquote.exclaim {
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-image: url('{{site.baseurl}}/assets/images/tip.png');
+}
+
+
+
 
 
 .page-gear img {

@@ -1,7 +1,8 @@
 # Oracle Dungeon
 
-Time to clear: about 10 - 15 minutes  
-Minimum Level: **TODO**
+> Time to clear: about 10 - 15 minutes  
+> Minimum Level: **TODO**  
+> Rewards: Random cards (no unlock)
 
 ## What is Oracle Dungeon?
 
