@@ -19,7 +19,7 @@
       <li class="list-group-item"><a href="{{site.baseurl}}/pvp">PVP</a></li>
     </ul>
   </li>
-  <li class="list-group-item">War of Emperium
+<!--  <li class="list-group-item">War of Emperium
     <ul class="list-group border-left">
       <li class="list-group-item"><a href="{{site.baseurl}}/woe">General</a></li>
       <li class="list-group-item"><a href="{{site.baseurl}}/woe/maps">Maps</a></li>
@@ -39,13 +39,13 @@
       <li class="list-group-item"><a href="{{site.baseurl}}/char/alt">Alt Farming</a></li>
       <li class="list-group-item"><a href="{{site.baseurl}}/char/ranger">Ranger</a></li>
     </ul>
-  </li>
+  </li>-->
   <li class="list-group-item">Data Sheets
     <ul class="list-group border-left">
-      <li class="list-group-item"><a href="{{site.baseurl}}/data/pets">Pets</a></li>
       <li class="list-group-item"><a href="http://gg.gg/ROM_Pets">Pets google sheet</a></li>
+<!--      <li class="list-group-item"><a href="{{site.baseurl}}/data/pets">Pets</a></li>
       <li class="list-group-item"><a href="{{site.baseurl}}/data/cardcraft">Card Crafting</a></li>
-      <li class="list-group-item"><a href="{{site.baseurl}}/char/enhancerefine">Refine Enhancing</a></li>
+      <li class="list-group-item"><a href="{{site.baseurl}}/char/enhancerefine">Refine Enhancing</a></li>-->
     </ul>
   </li>
 </ul>

@@ -21,13 +21,13 @@ for the Legend difficulty, one of the DPS will have to be a Mechanic, with the N
 
 Each difficulty will have their own requirements in terms of DPS, HP and survivability. A quick summary:
 
-### Novice
+### Novice difficulty
 
 - RG
 - AB
 - DPS
 
-### Brave
+### Brave difficulty
 
 - RG:
   - 600k HP
@@ -41,7 +41,7 @@ Each difficulty will have their own requirements in terms of DPS, HP and surviva
   - ??% ignore defense for non-crit classes
   - at least 10k attack
 
-### Legend
+### Legend difficulty
 
 - RG:
   - 600k HP
