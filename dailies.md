@@ -34,6 +34,10 @@ If you are in a guild (which you should be), there will be 3 quests every day th
 - If the quest says to ride the payon kite or the whale, you do not actually have to finish the ride. You do have to be on the same channel as the others in your party to do the ride, but once everybody clicks accept, the person starting the ride can just cancel and the quest will still complete
 - If the quest requires you to make a photo with 2 guildmates, you have to make 2 photos
 
+## Zodiac NPC
+
+The zodiac NPC is a small quest you can do with 2 people. The NPC is in prontera, and you can do the quest twice per day for rewards. To do the quest, you have to be in a party, and hold hands. The hold hands skill is an adventure skill you can learn in the most northern part of prontera, and is required for this quest. After holding hands, one person should talk to the NPC, the other person will get at popup and click on agree, and then you both get a synchronized popup with text **slowly** appearing. Click through the answers and you will get some rewards. There are 2 interesting rewards, a galaxy crystal and gemini shards (it's random what rewards you get). The galaxy crystal can be exchanged at the zodiac NPC for special, rare headgear, with some really good deposits. The gemini shards can be exchanged for an item that gives you a new pose
+
 ## Greedy Shop
 
 In Toy Factory 1F is an NPC called the **Greedy Shop**. This NPC spawns randomly on the map, and can be summoned by killing the gift boxes in the bottomleft corner of the map. After killing these gift boxes, the greedy shop spawns randomly on the map, and will sell certain toy factory mob drops, and has a chance to sell MVP material drops at a low price. Buying items at this shop costs **TODO** in addition to zeny, but the prices are usually quite good.
