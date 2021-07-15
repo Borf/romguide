@@ -3,42 +3,170 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <title>{{ page.title }}</title>
-    <script
-  src="https://code.jquery.com/jquery-3.5.1.min.js"
-  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-  crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+    <title>Luminarious ROM guides</title>
+    <style>
+      #content
+      {
+        margin: 20px;
+        margin-top: 100px;
+      }
+
+      nav
+      {
+        background: rgb(241,93,47); 
+        background: linear-gradient(0deg, rgba(241,93,47,1) 0%, rgba(241,153,35,1) 100%);
+        
+      }
+      nav .dropdown-toggle
+      {
+
+      }
+      nav .dropdown-menu
+      {
+        background-color: rgb(33, 37, 41);
+
+      }
+      nav a:visited
+      {
+        color: white;
+      }
+      nav .dropdown-menu a
+      {
+        background-color: rgb(33, 37, 41);
+        color: white;
+      }
+      nav .dropdown-menu a:hover
+      {
+        background: rgb(241,93,47);    background: linear-gradient(0deg, rgba(241,93,47,1) 0%, rgba(241,153,35,1) 100%);
+        color: white;
+      }
+    </style>
   </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <p class="navbar-text navbar-left"><a class="hamburgers" href="#">Menu</a></p>
-      <h1>Borf's Guide to ROM<img class="logo" src="{{site.baseurl}}/assets/images/logo.gif"></h1>
+  <body class="bg-dark text-white">
+    <nav class="navbar fixed-top navbar-expand-lg text-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{{site.baseurl}}">
+          <img class="logo" style="height: 60px; width: auto; margin-top: -14px; margin-bottom: -13px; margin-left: -12px; margin-right: 12px;" src="{{site.baseurl}}/assets/images/lumi.gif">Luminary's ROM guides</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dailies
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="{{site.baseurl}}/dailies">Dailies</a></li>
+                <li><a class="dropdown-item" href="{{site.baseurl}}/dailies">Gingerbread City Quests</a></li>
+                <li><a class="dropdown-item" href="{{site.baseurl}}/dailies">Yuno Quests</a></li>
+                <li><a class="dropdown-item" href="{{site.baseurl}}/dailies">Singra Box</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Weeklies
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Purgatory</a></li>
+                <li><a class="dropdown-item" href="#">Oracle</a></li>
+                <li><a class="dropdown-item" href="#">Valkyrie Ruins</a></li>
+                <li><a class="dropdown-item" href="#">Endless Tower</a></li>
+                <li><a class="dropdown-item" href="#">Battle of Cake</a></li>
+                <li><a class="dropdown-item" href="#">Thanatos Tower</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>F1</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>F2</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>F3</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>F4</a></li>
+                <li><a class="dropdown-item" href="#">Echoing Corridor</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Class Information
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Runemaster</a></li>
+                <li><a class="dropdown-item" href="#">Divine Avenger</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Arcane Master</a></li>
+                <li><a class="dropdown-item" href="#">Chronomancer</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Blade Soul</a></li>
+                <li><a class="dropdown-item" href="#">Phantom Dancer</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Stellar Hunter</a></li>
+                <li><a class="dropdown-item" href="#">Soular Trouvere</a></li>
+                <li><a class="dropdown-item" href="#">Luna Danseuse</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Saint</a></li>
+                <li><a class="dropdown-item" href="#">Dragon Fist</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Lightbringer</a></li>
+                <li><a class="dropdown-item" href="#">Begetter</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Novice Guardian</a></li>
+                <li><a class="dropdown-item" href="#">Ronin</a></li>
+                <li><a class="dropdown-item" href="#">Ninja</a></li>
+                <li><a class="dropdown-item" href="#">Gundam</a></li>
+                <li><a class="dropdown-item" href="#">Slayer</a></li>
+                <li><a class="dropdown-item" href="#">Ket</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                One Time Things
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Palace of Beauty</a></li>
+                <li><a class="dropdown-item" href="#">Wastelands Tree</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                General Tips
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Building your character</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>Aesir Monument</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>Runes</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>Relics</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>Guild</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right"></i>Oracle Mirror</a></li>
+                <li><a class="dropdown-item" href="#">Refining</a></li>
+                <li><a class="dropdown-item" href="#">PVP 6v6</a></li>
+                <li><a class="dropdown-item" href="#">PVP 12v12</a></li>
+                <li><a class="dropdown-item" href="#">Other stuff</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+        <img class="logo" style="height: 40px; width: auto;" src="{{site.baseurl}}/assets/images/logo.gif">
+      </div>
     </nav>
-    <div class="d-flex" id="wrapper">
-      <div class="bg-light border-right" id="sidebar-wrapper">
-        <nav id="sidebar">
-            {% capture toc %}{% include toc.md %}{% endcapture %}
-            {{ toc | markdownify }}
-        </nav>
-      </div>
-      <div id="content" class="page-{{ page.name | replace: ".md", "" }}">
-{{ content }}
-      </div>
+
+    <div id="content" class="page-{{ page.name | replace: ".md", "" }}">
+      {{ content }}
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script>
-      $(".hamburgers").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-      });
-    </script>
+      
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
