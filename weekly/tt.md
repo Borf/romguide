@@ -3,6 +3,8 @@
 > Time to clear: about 10 to 15 minutes for novice and brave, about an hour for legend (if your party setup is good)  
 > Minimum Level: **TODO**  
 > Rewards: Runes, Equipment, Mounts, Pets, Zeny
+> Where: TT map, accessable from yuno  
+> Fortune Coins: yes  
 
 Thanatos Tower is a boss run for a party of 12 people. This dungeon requires teamwork, and it is recommended to organize a balanced party. A basic party setup consists of
 

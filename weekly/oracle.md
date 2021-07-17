@@ -43,10 +43,10 @@ You can find 3 NPCs in prontera. One to enter oracle, one to view the cards of t
 
 There are 4 difficulties, being
 
-- Easy
-- Normal
-- Hard
-- Nightmare
+- Easy (Reroll costs xx fortune coins)
+- Normal (Reroll costs xx fortune coins)
+- Hard (Reroll costs xx fortune coins)
+- Nightmare (Reroll costs 15 fortune coins)
 
 If you clear a difficulty, you will automatically get the rewards for all the easier difficulties (so if you do nightmare, you get the rewards for easy, normal, hard and nightmare)
 
