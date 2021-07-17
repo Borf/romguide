@@ -184,6 +184,12 @@
         var img = $('<img src="https://borf.github.io/romicons/Items/'+itemid+'.png" height="20">');
         img.insertBefore($(this));
       }
+      if(href.includes("monster"))
+      {
+        var itemid = parseInt(href.substr(href.indexOf("monster/")+8));
+        var img = $('<img src="https://borf.github.io/romicons/CardsId/card_'+itemid+'.png" height="40">');
+        img.insertBefore($(this));
+      }
     });
 
   });
