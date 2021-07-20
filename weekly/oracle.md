@@ -13,6 +13,7 @@
 
 </style>
 
+![screenshot]({{site.baseurl}}/assets/images/oracle/screenshot.jpg){: .headerimg}
 
 # Oracle Dungeon
 
@@ -22,7 +23,6 @@
 > Where: Prontera  
 > Fortune Coins: yes  
 
-![screenshot]({{site.baseurl}}/assets/images/oracle/screenshot.jpg)
 
 ## What is Oracle Dungeon?
 
@@ -37,7 +37,8 @@ Some of the bosses and stronger monsters can take a bit of time to kill. It's wi
 ## Entrance
 
 You can find 3 NPCs in prontera. One to enter oracle, one to view the cards of this week, and one who just wants to have a chat  
-![prontera]({{site.baseurl}}/assets/images/oracle/location.png)![prontera]({{site.baseurl}}/assets/images/oracle/location2.png)
+
+![prontera]({{site.baseurl}}/assets/images/oracle/location.png)
 
 ## Difficulties
 

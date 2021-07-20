@@ -1,6 +1,6 @@
 ## Aeisr Monument
 
-![aisr]({{site.baseurl}}/assets/images/aeisr.jpg){: style="width: 100%; height: auto;"}
+![aisr]({{site.baseurl}}/assets/images/aeisr.jpg){: .headerimg}
 
 The [Aeisr Monument](https://www.romcodex.com/item/5501/aeisr-monument) is an item you can unlock through a quest in Prontera. When you start a new account, and go through the academy, it is already unlocked though. After you unlocked the Aeisr monument, you can use it to open a screen where you can distribute [Contribution](https://www.romcodex.com/item/140/contribution) and [Gold Medals](https://www.romcodex.com/item/5261/gold-medal), to unlock more stat bonusses, extra effects for your skills and new skills. The daily growth quest in Cryptura Academy will give you some contribution and gold medals, but you might want to get more, or get some contribution on your alt characters, as the daily growth quest is only available for one of your characters
 
